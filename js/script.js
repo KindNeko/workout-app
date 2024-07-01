@@ -11,7 +11,7 @@ const inputClimb = document.querySelector(".form__input--climb");
 class Workout {
   date = new Date();
   id = (Date.now() + "").slice(-10);
-  clickNumber = 0;
+
   constructor(coords, distance, duration) {
     this.coords = coords;
     this.distance = distance;
